@@ -4419,6 +4419,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     font-weight: 500; }
 
 .hero-wrap {
+  filter: brightness(0.7);
   height: 100vh;
   min-height: 100%;
   position: relative;
