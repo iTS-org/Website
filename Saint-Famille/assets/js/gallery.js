@@ -35,9 +35,9 @@
       })
   })
 
-//   owl.on('changed.owl.carousel', function(event) {
-//       $('.thumbnail li').removeClass('active');
-//       $('.thumbnail li').eq(event.item.index - 1).addClass('active');
-//   })
+  owl.on('changed.owl.carousel', function(event) {
+    $('.thumbnail li').removeClass('active');
+    $('.thumbnail li').eq(event.item.index - 4).addClass('active');
+  })
 
 })(jQuery);
