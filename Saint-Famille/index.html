@@ -16,17 +16,32 @@
   <link rel="stylesheet" href="./assets/css/gallery.css">
   <link rel="stylesheet" href="./assets/css/main.css">
 
-<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.1055.0"
-  data-gr-ext-installed="">
+<body>
+  <nav class="navbar fixed-top sticky-top  navbar-expand-lg ftco-navbar-light">
+    <div class="container-xl">
+
+      <a href="https://moodle.lasainte.mg" class="btn-custom order-lg-last"><i class="fa-solid fa-chalkboard-user"></i> MOODLE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Acceuil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#story">Notre Histoire</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stats">Statistique</a></li>
+          <li class="nav-item"><a class="nav-link" href="#activity">Activités</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallerie</a></li>
+          <li class="nav-item"><a class="nav-link" href="#video">Vidéos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tarif">Inscriptions</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="top-wrap">
     <div class="container">
       <div class="row">
-        <div class="col-md col-xl-5 d-flex align-items-center">
-          <a class="navbar-brand align-items-center" href="index.html">
-            <img class="img img-fluid" alt="..." width="150" src="assets/images/logo.png" alt="">
-          </a>
-        </div>
-        <div class="col-md d-flex align-items-center">
+        <div class="col-md d-flex align-items-center justify-content-center">
           <div class="con d-flex">
             <div class="icon"><i class="fa-regular fa-clock text-white fs-2"></i></div>
             <div class="text">
@@ -35,7 +50,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md d-flex align-items-center">
+        <div class="col-md d-flex align-items-center justify-content-center">
           <div class="con d-flex">
             <div class="icon"><i class="fa-solid fa-phone text-white fs-2"></i></div>
             <div class="text">
@@ -44,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md d-flex align-items-center">
+        <div class="col-md d-flex align-items-center justify-content-center">
           <div class="con d-flex">
             <div class="icon"><i class="fa-solid fa-location-dot text-white fs-2"></i></div>
             <div class="text">
@@ -56,33 +71,12 @@
       </div>
     </div>
   </div>
-  <nav class="navbar navbar-expand-lg  ftco-navbar-light fixed-top">
-    <div class="container-xl">
-
-      <a href="https://moodle.lasainte.mg" class="btn-custom order-lg-last"><i class="fa-solid fa-chalkboard-user"></i> MOODLE</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fa fa-bars"></span> Menu
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" href="">Acceuil</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Notre Histoire</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Statistique</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Activités</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Gallerie</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Vidéos</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section class="hero-wrap" style="background-image:url(assets/images/xbg_1.jpg.pagespeed.ic.Qvddt6BzWR.webp)">
+  <section id="home" class="hero-wrap">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-center">
         <div class="col-lg-5">
-          <div class="text mt-3 pt-3 aos-init aos-animate">
+          <div class="text mt-3 pt-3">
             <p class="pb-4">
               <span class="subheading">Bienvenu à l'<span class="text-danger"> Institut Sainte Famille de la Salle</span></span>
               <img class="img-fluid" alt="..." height="120" src="assets/images/logo.png" alt="">
@@ -103,7 +97,7 @@
       </div>
     </div>
   </div>
-  <section class="ftco-section ftco-no-pt ftco-no-pb">
+  <section id="story" class="ftco-section pt-4 ftco-no-pb">
     <div class="container-xl">
       <div class="row g-xl-2">
         <div class="col-md-6 d-flex align-items-stretch">
@@ -117,12 +111,18 @@
                 <div class="services d-flex">
                   <div class="text">
                     <span class="subheading">Notre histoire</span>
-                    <p class="mb-0">Bienvenue sur le site de l’ École La Clairefontaine Antananarivo et merci de votre visite qui, pour nous, témoigne de l’intérêt que vous portez à notre établissement ! <br>
-                      Depuis sa création en 1982, La Clairefontaine a toujours tout mis en œuvre pour mériter la confiance des parents, de plus en plus nombreux, qui adhérent au projet éducatif de l’établissement
-                      et qui lui confient leurs enfants de la petite section de l’école maternelle aux classes terminales du lycée. <br>
-                      Aussi, l’établissement se doit d’être toujours à la hauteur de ses ambitions et de faire face à ses responsabilités, son principal objectif étant la réussite des élèves dans l’excellence. <br>
-                      L’équipe pédagogique, par ailleurs, ne faillit pas à sa détermination à donner le meilleur d’elle-même pour accomplir sa mission. Un accent tout particulier est ainsi mis sur l’optimisation du
-                      suivi individuel et l’accompagnement personnalisé des élèves afin que ces derniers puissent construire un parcours d’orientation positif.</p>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae nunc mauris. In consequat volutpat lorem eu pulvinar.
+                      Pellentesque mattis metus sed ex tempor, sit amet cursus lorem fringilla. 
+                      Sed non tortor pulvinar, mattis magna ut, tincidunt arcu. Sed accumsan, 
+                      justo id egestas aliquam, libero ex aliquam orci, nec dapibus tortor orci 
+                      quis libero. Proin sit amet ante at quam placerat fermentum. Aenean in sollicitudin quam, et vestibulum leo.<br>
+                      Nulla sed dui arcu. Quisque commodo non ipsum ut mattis. Etiam fringilla pellentesque scelerisque. Cras ac orci
+                      ac felis lobortis fermentum. In luctus placerat pellentesque. Nam vestibulum tellus vel enim imperdiet ornare.
+                      Ut consectetur faucibus est ut semper. Nam eu ullamcorper lacus, sed facilisis nulla. Donec rutrum blandit malesuada.
+                      Nulla vel velit dignissim, rutrum lectus vel, efficitur lectus. Integer dictum condimentum mauris, in porta sem iaculis in.
+                      Aliquam placerat vestibulum diam, a mollis quam consectetur vel. Aliquam erat volutpat. Aenean rutrum nunc nulla.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@
       </div>
     </div>
   </section>
-  <section class="ftco-section-counter img" style="background:linear-gradient(0deg, rgba(11, 38, 196, 0.433), rgba(226, 6, 46, 0.385)), url(assets/images/saint-famille.jpg); background-size: cover; background-position: center;">
+  <section id="stats" class="ftco-section-counter img mt-3" style="background:linear-gradient(0deg, rgba(11, 38, 196, 0.433), rgba(226, 6, 46, 0.385)), url(assets/images/saint-famille.jpg); background-size: cover; background-position: center;">
     <div class="overlay"></div>
     <div class="container" style="z-index:2;">
       <div class="row section-counter viewed">
@@ -183,7 +183,7 @@
       </div>
     </div>
   </section>
-  <section class="ftco-section mt-4">
+  <section id="activity" class="ftco-section mt-4">
     <div class="container-xl">
       <div class="row justify-content-center">
         <div class="col-md-8 heading-section text-center mb-5">
@@ -251,56 +251,12 @@
       </div>
     </div>
   </section>
-  <!-- <section class="ftco-section testimony-section bg-light">
+  <section id="gallery" class="ftco-section">
     <div class="container-xl">
       <div class="row justify-content-center">
-        <div class="col-md-8 heading-section text-center mb-5">
+        <div class="col-md-8 heading-section text-center mb-1">
             <span class="subheading">Gallerie</span>
-            <h4 class="mb-4">Visionnez nos photos</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 mb-4">
-          <a href="" data-fancybox="gal">
-          <img src="./assets/images/galerie/ximg_1.jpg" alt="Image" class="img-fluid rounded h-100"></a>
-        </div>
-        <div class="col-md-3 mb-4">
-          <a href="" data-fancybox="gal">
-          <img src="./assets/images/galerie/ximg_2.jpg" alt="Image" class="img-fluid rounded h-100"></a>
-        </div>
-        <div class="col-md-3 mb-4">
-          <a href="" data-fancybox="gal">
-          <img src="./assets/images/galerie/ximg_3.jpg" alt="Image" class="img-fluid rounded h-100"></a>
-        </div>
-        <div class="col-md-3 mb-4">
-          <a href="" data-fancybox="gal">
-          <img src="./assets/images/galerie/ximg_4.jpg" alt="Image" class="img-fluid rounded h-100"></a>
-        </div>
-        <div class="col-md-3 mb-4">
-          <a href="" data-fancybox="gal">
-          <img src="./assets/images/galerie/ximg_5.jpg" alt="Image" class="img-fluid rounded h-100"></a>
-        </div>
-        <div class="col-md-3 mb-4">
-          <a href="" data-fancybox="gal">
-          <img src="./assets/images/galerie/ximg_6.jpg" alt="Image" class="img-fluid rounded h-100"></a>
-        </div>
-        <div class="col-md-3 mb-4">
-          <a href="" data-fancybox="gal"></a>
-          <img src="./assets/images/galerie/ximg_7.jpg" alt="Image" class="img-fluid rounded h-100">
-        </div>
-        <div class="col-md-3 mb-4">
-          <a href="" data-fancybox="gal"></a>
-          <img src="./assets/images/galerie/ximg_8.jpg" alt="Image" class="img-fluid rounded h-100">
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <section class="ftco-section">
-    <div class="container-xl">
-      <div class="row justify-content-center">
-        <div class="col-md-8 heading-section text-center mb-5">
-            <span class="subheading">Gallerie</span>
-            <h4 class="mb-4">Visionnez nos photos</h4>
+            <h4 class="mb-3">Visionnez nos photos</h4>
         </div>
       </div>
       <div class="row">
@@ -367,19 +323,18 @@
                 <li><a href="#"><img src="assets/images/galerie/ximg_7.jpg" alt="Image" class="img-fluid"></a></li>
                 <li><a href="#"><img src="assets/images/galerie/ximg_8.jpg" alt="Image" class="img-fluid"></a></li>
               </ul>
-                </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="ftco-section bg-light ftco-no-pt">
+  <section id="video" class="ftco-section bg-light">
     <div class="container-xl">
       <div class="row justify-content-center mb-5">
         <div class="col-md-7 heading-section text-center">
           <span class="subheading">Vidéos</span>
-          <h4>Voyez à travers ces vidéos l'ambiances lors des fêtes et évènements</h4>
+          <h4>Voyez à travers ces vidéos l'ambiance lors des fêtes et évènements</h4>
         </div>
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-5">
@@ -413,7 +368,7 @@
       </div>
     </div>
   </section>
-  <section class="ftco-section ftco-no-pt">
+  <section id="tarif" class="ftco-section">
     <div class="container">
       <div class="row justify-content-center pb-5">
         <div class="col-md-7 text-center heading-section">
@@ -422,40 +377,34 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
-          data-aos-delay="100">
+        <div class="col-md-6 col-lg-3">
           <div class="block-7">
             <div class="text-center">
               <span class="excerpt d-block">Primaire</span>
               <span class="price"><sup>Ar</sup> <span class="number text-danger">20000</span></span>
-              <a href=""
-                class="btn btn-primary btn-outline-primary d-block px-2 py-3">Dossier Inscription</a>
+              <a href="" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Dossier Inscription</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
-          data-aos-delay="200">
+        <div class="col-md-6 col-lg-3">
           <div class="block-7">
             <div class="text-center">
               <span class="excerpt d-block">Collège</span>
               <span class="price"><sup>Ar</sup> <span class="number text-danger">30000</span></span>
-              <a href=""
-                class="btn btn-primary btn-outline-primary d-block px-2 py-3">Dossier Inscription</a>
+              <a href="" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Dossier Inscription</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 aos-init aos-animate">
+        <div class="col-md-6 col-lg-3">
           <div class="block-7">
             <div class="text-center">
               <span class="excerpt d-block">Lycée</span>
               <span class="price"><sup>Ar</sup> <span class="number text-danger">35000</span></span>
-              <a href=""
-                class="btn btn-primary btn-outline-primary d-block px-2 py-3">Dossier Inscription</a>
+              <a href="" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Dossier Inscription</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000"
-          data-aos-delay="400">
+        <div class="col-md-6 col-lg-3">
           <div class="block-7">
             <div class="text-center">
               <span class="excerpt d-block">Lycée Technique</span>
@@ -468,7 +417,7 @@
       </div>
     </div>
   </section>
-  <footer class="ftco-footer">
+  <footer  id="contact" class="ftco-footer">
     <div class="container-xl">
       <div class="row mb-3 justify-content-between">
         <div class="col-md-8 col-lg-4">
@@ -479,10 +428,11 @@
               </a>
             </div>
             <div class="my-3">
-              <span class="text-primary fw-bold">NOTRE ECOLE... </span><span  class="text-danger fw-bold">NOTRE FAMILLE...</span>
+              <div class="mb-2">
+                <span class="text-primary fw-bold">NOTRE ECOLE... </span><span  class="text-danger fw-bold">NOTRE FAMILLE...</span>
+              </div>
               <p>
                 Donnez à vos enfants la chance d'aquérir la connaissance et la sagesse dans une établissement de qualité.<br>
-                Nous avons pour objectifs d'asssurer le dévelopement de nos élèves sur l'aspect spirituel, intellectuel et physique.
               </p>
             </div>
           </div>
@@ -498,14 +448,14 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6 col-lg-2">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Partenaires</h2>
+        <div class="col-md-6 col-lg-3">
+          <div class="ftco-footer-widget mb-4 ps-3">
+            <h2 class="ftco-heading-2 ps-3">Partenaires</h2>
             <div class="block-21 mb-4 d-flex  align-items-center">
               <a class="blog-img img rounded" style="background-image:url(https://github.com/iTeam-S/Dev-center/raw/main/Storage/log_iTS.png)"></a>
               <div class="text">
                 <div>
-                  <h2 class="heading fs-6"><a href="">iTeam-School</a></h2>
+                  <h2 class="heading fs-5"><a href="">iTeam-School</a></h2>
                 </div>
               </div>
             </div>
@@ -516,9 +466,9 @@
             <h2 class="ftco-heading-2">Contacts</h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><span class="icon fa fa-map marker"></span><span class="text">Lot 40TE Mahamasina, Antananarivo 101</span></li>
-                <li><a href=""><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                <li><a href=""><span class="icon fa fa-paper-plane"></span><span class="text">sec_lasainte@lasalle.org</span></a></li>
+                <li><span class="icon fa fa-map marker"></span><span class="text">3GMG+3MQ Mahamasina</span></li>
+                <li><span class="icon fa fa-envelope"></span><span class="text">sec_lasainte@lasalle.org</span></li>
+                <li><span class="icon fa fa-phone"></span><span class="text">+261 34 91 449 33</span></li>
               </ul>
               <a href="https://www.facebook.com/LaSainteOfisialy"><button type="button" class="w-auto mt-2 btn btn-outline-primary d-flex justify-content-center align-items-center fs-10">FACEBOOK  <i class="fa-brands fa-facebook ms-2 text-primary-f"></i></button></a>
             </div>
@@ -542,5 +492,14 @@
   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <script src="assets/js/gallery.js"></script>
+  <script>
+    $(function () {
+    $(document).scroll(function () {
+      var $hero = $(".hero-wrap")
+      var $nav = $(".navbar");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > ($hero.height() - $nav.height()*2));
+    });
+  });
+  </script>
 </body>
 </html>
